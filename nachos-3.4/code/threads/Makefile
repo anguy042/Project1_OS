@@ -25,7 +25,7 @@
 #      some functions. 
 
 
-DEFINES = -DTHREADS -DHW1_ELEVATOR
+DEFINES = -DTHREADS #-DHW1_ELEVATOR #-DHW1_SEMAPHORES #DHW1_LOCKS
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
