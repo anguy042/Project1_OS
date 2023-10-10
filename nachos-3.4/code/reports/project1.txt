@@ -23,6 +23,14 @@ see increments of 1, but still see the same final value. I will implement the se
 After implementing the semaphores, I can see that now the threads each take turns incrementing the value by 1,
 and then they all see the same value at the end. Even when the -rs value is used the threads take turns out of order.
 
+EXCERCISE 2 NOTES
+Excercise 2 is mostly complete. Our main issue is being able to do the lock test. The four functions are implemented in synch.cc as well as a locktest.cc file was created for testing in the threads folder.
+In main.cc //extern void LockTest(void);// was added an as external function. HW1_LOCKS is defined in line 128 in main.cc.
+locktest.cc was added to block THREAD_C in code/makefile.common as well as locktest.o in block THREAD_O. 
+After being ran with the given instructions, the output is not the desired output.
+
+EXCERCISE 3 NOTES
+Excercise 3 is complete, all condition functions are implemented.
 
 
 EXCERCISE 4 NOTES
