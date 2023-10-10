@@ -58,7 +58,7 @@ THREAD_C =../threads/main.cc\
 	../threads/system.cc\
 	../threads/thread.cc\
 	../threads/utility.cc\
-	..threads/lockTest.cc\
+	../threads/lockTest.cc\
 	../threads/threadtest.cc\
 	../machine/interrupt.cc\
 	../machine/sysdep.cc\
